@@ -1,0 +1,129 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: young serif
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-one__Name {
+    font-size: 70px;
+}
+
+.section-one__contact {
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.section-one__role {
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    ;
+    margin-top: 10px;
+}
+
+.section-two__desc,
+.section-three__desc,
+.section-four__desc,
+.section-five__desc {
+    margin-top: 20px;
+}
+
+.section-five {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    border-radius: 15px;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.section-five__title a {
+    color: aqua;
+}
+
+.section-three li,
+.section-four li {
+    list-style: none;
+}
+
+.section-three {
+    background-color: #6462fd;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.section-three__desc {
+    font-size: large;
+}
+
+.section-four {
+    background-color: #FE7517;
+    color: black;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.parent{display: flex;
+gap: 20px;
+align-items: flex-start;}
+
+.contact-form
+{
+    margin-top:20px;
+}
+
+.contact-form__input{
+    margin-bottom: 20px;
+    padding:15px;
+    border:none;
+border-bottom: solid black 1px;
+}
+.contact-form__input,.contact-form__textarea,.contact-form__submit
+{
+ margin-top:10px;
+}
+.contact-form__textarea{
+    padding:15px;
+    border: solid black 1px;
+}
+.contact-form__submit{
+    padding-bottom:10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid black 2px;
+    background-color: orangered;
+
+}
