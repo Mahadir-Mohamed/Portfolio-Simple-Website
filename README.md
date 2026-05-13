@@ -1,6 +1,8 @@
 # Portfolio-Simple-Website
 Learning web development: my first HTML and CSS portfolio.
 
+live Website: https://mahadir-mohamed.github.io/Portfolio-Simple-Website/
+
 📌 Project Overview
 Two-page personal portfolio built with fundamental web technologies.Home Page: Displays a personal bio, core skills, and key projects.
 
